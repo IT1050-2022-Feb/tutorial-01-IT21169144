@@ -5,7 +5,19 @@
 #include <stdio.h>
 
 int main() {
-  
+
+  float sub1, sub2, avg;
+
+  printf("Enter Subject no.01 Marks: ");
+  scanf("%f", &sub1);
+
+  printf("Enter Subject no.02 marks: ");
+  scanf("%f", &sub2);
+
+  avg = (sub1 + sub2) / 2;
+
+  printf("Average is %.2f", avg);
+
   return 0;
 }
 
